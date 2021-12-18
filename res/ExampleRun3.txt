@@ -1,0 +1,347 @@
+<------ Welcome to the Viking Battle ------>
+This is a two player turn-based game where every player is assigned abilities at random and can pick the gear from the bag at random.
+Players can also request a weapon from the armory which is assigned randomly. 
+The Player with higher charisma dazzles their opponent and gets in the first strike.
+The player who did not take a total damage greater than or equal to their health is declared the victor.
+It is possible for a battle to end in a draw. 
+
+<------ Players in the Battle ------>
+Name: Player1 
+ Health: 44, Strength: 12, Constitution: 13, Dexterity: 10, Charisma: 9.
+Name: Player2 
+ Health: 42, Strength: 9, Constitution: 11, Dexterity: 10, Charisma: 12.
+
+<------ Bag of gears ------>
+[Headgear1 (HeadGear), Headgear10 (HeadGear), Headgear11 (HeadGear), Headgear12 (HeadGear), Headgear13 (HeadGear), Headgear14 (HeadGear), Headgear15 (HeadGear), Headgear16 (HeadGear), Headgear17 (HeadGear), Headgear18 (HeadGear), Headgear19 (HeadGear), Headgear2 (HeadGear), Headgear20 (HeadGear), Headgear21 (HeadGear), Headgear22 (HeadGear), Headgear23 (HeadGear), Headgear24 (HeadGear), Headgear25 (HeadGear), Headgear26 (HeadGear), Headgear27 (HeadGear), Headgear28 (HeadGear), Headgear29 (HeadGear), Headgear3 (HeadGear), Headgear30 (HeadGear), Headgear4 (HeadGear), Headgear5 (HeadGear), Headgear6 (HeadGear), Headgear7 (HeadGear), Headgear8 (HeadGear), Headgear9 (HeadGear), Potion1 (Potion), Potion10 (Potion), Potion11 (Potion), Potion12 (Potion), Potion13 (Potion), Potion14 (Potion), Potion15 (Potion), Potion2 (Potion), Potion3 (Potion), Potion4 (Potion), Potion5 (Potion), Potion6 (Potion), Potion7 (Potion), Potion8 (Potion), Potion9 (Potion), Belt10m (Belt) - MEDIUM, Belt11m (Belt) - MEDIUM, Belt12m (Belt) - MEDIUM, Belt13m (Belt) - MEDIUM, Belt14m (Belt) - MEDIUM, Belt15m (Belt) - MEDIUM, Belt1l (Belt) - LARGE, Belt1m (Belt) - MEDIUM, Belt1s (Belt) - SMALL, Belt2l (Belt) - LARGE, Belt2m (Belt) - MEDIUM, Belt2s (Belt) - SMALL, Belt3l (Belt) - LARGE, Belt3m (Belt) - MEDIUM, Belt3s (Belt) - SMALL, Belt4l (Belt) - LARGE, Belt4m (Belt) - MEDIUM, Belt4s (Belt) - SMALL, Belt5l (Belt) - LARGE, Belt5m (Belt) - MEDIUM, Belt5s (Belt) - SMALL, Belt6m (Belt) - MEDIUM, Belt7m (Belt) - MEDIUM, Belt8m (Belt) - MEDIUM, Belt9m (Belt) - MEDIUM, Footwear1 (Footwear), Footwear10 (Footwear), Footwear11 (Footwear), Footwear12 (Footwear), Footwear13 (Footwear), Footwear14 (Footwear), Footwear15 (Footwear), Footwear16 (Footwear), Footwear17 (Footwear), Footwear18 (Footwear), Footwear19 (Footwear), Footwear2 (Footwear), Footwear20 (Footwear), Footwear21 (Footwear), Footwear22 (Footwear), Footwear23 (Footwear), Footwear24 (Footwear), Footwear25 (Footwear), Footwear26 (Footwear), Footwear27 (Footwear), Footwear28 (Footwear), Footwear29 (Footwear), Footwear3 (Footwear), Footwear30 (Footwear), Footwear4 (Footwear), Footwear5 (Footwear), Footwear6 (Footwear), Footwear7 (Footwear), Footwear8 (Footwear), Footwear9 (Footwear)]
+
+Picking Gear for Players.... 
+
+Picking Weapon for Player 1.... 
+Picking Weapon for Player 2.... 
+
+<------ Players Info ------>
+
+Name: Player1 
+ Health: 44, Strength: 20, Constitution: 31, Dexterity: 17, Charisma: 9
+ Weapon: Axes, Number of weapon: 1
+ Gears worn: [Headgear15 (HeadGear), Potion2 (Potion), Potion7 (Potion), Belt1m (Belt) - MEDIUM, Belt3m (Belt) - MEDIUM, Belt4l (Belt) - LARGE, Footwear17 (Footwear)] 
+ Striking Power: 23 
+ Avoidance Ability: 23
+
+Name: Player2 
+ Health: 42, Strength: 9, Constitution: 17, Dexterity: 17, Charisma: 12
+ Weapon: Axes, Number of weapon: 1
+ Gears worn: [Headgear16 (HeadGear), Potion11 (Potion), Potion12 (Potion), Potion14 (Potion), Potion4 (Potion), Potion5 (Potion), Potion6 (Potion), Belt1s (Belt) - SMALL, Belt3l (Belt) - LARGE, Belt8m (Belt) - MEDIUM, Footwear29 (Footwear)] 
+ Striking Power: 14 
+ Avoidance Ability: 23
+
+
+<------ Selecting order of strike (First Strike).... ------>
+First Strike goes to: Player2
+
+<------ Round 1 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 2 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 3 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 4 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 5 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 6 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 7 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 8 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 9 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 10 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 11 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 12 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 13 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 14 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 15 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 16 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 17 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 18 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 19 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 20 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 21 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 22 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 23 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 24 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 25 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 26 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 27 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 28 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 29 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 30 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 31 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 32 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 33 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 34 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 35 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 36 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 37 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 38 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 39 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 40 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 41 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 42 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 43 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 44 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 45 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 46 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 47 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 48 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+<------ Round 49 ------>
+Attacker:Player2, Opponent: Player1
+Opponent avoids the attack! 
+Opponent's Health: 44.0 
+
+
+<------ Round 50 ------>
+Attacker:Player1, Opponent: Player2
+Opponent avoids the attack! 
+Opponent's Health: 42.0 
+
+
+Match ends in a Draw 
+
+Do you want a rematch? (yes/no)
+no
+
+Process finished with exit code

@@ -1,0 +1,118 @@
+<------ Welcome to the Viking Battle ------>
+This is a two player turn-based game where every player is assigned abilities at random and can pick the gear from the bag at random.
+Players can also request a weapon from the armory which is assigned randomly. 
+The Player with higher charisma dazzles their opponent and gets in the first strike.
+The player who did not take a total damage greater than or equal to their health is declared the victor.
+It is possible for a battle to end in a draw. 
+
+<------ Players in the Battle ------>
+Name: Player1 
+ Health: 41, Strength: 12, Constitution: 8, Dexterity: 10, Charisma: 11.
+Name: Player2 
+ Health: 42, Strength: 12, Constitution: 11, Dexterity: 9, Charisma: 10.
+
+<------ Bag of gears ------>
+[Headgear1 (HeadGear), Headgear10 (HeadGear), Headgear11 (HeadGear), Headgear12 (HeadGear), Headgear13 (HeadGear), Headgear14 (HeadGear), Headgear15 (HeadGear), Headgear16 (HeadGear), Headgear17 (HeadGear), Headgear18 (HeadGear), Headgear19 (HeadGear), Headgear2 (HeadGear), Headgear20 (HeadGear), Headgear21 (HeadGear), Headgear22 (HeadGear), Headgear23 (HeadGear), Headgear24 (HeadGear), Headgear25 (HeadGear), Headgear26 (HeadGear), Headgear27 (HeadGear), Headgear28 (HeadGear), Headgear29 (HeadGear), Headgear3 (HeadGear), Headgear30 (HeadGear), Headgear4 (HeadGear), Headgear5 (HeadGear), Headgear6 (HeadGear), Headgear7 (HeadGear), Headgear8 (HeadGear), Headgear9 (HeadGear), Potion1 (Potion), Potion10 (Potion), Potion11 (Potion), Potion12 (Potion), Potion13 (Potion), Potion14 (Potion), Potion15 (Potion), Potion2 (Potion), Potion3 (Potion), Potion4 (Potion), Potion5 (Potion), Potion6 (Potion), Potion7 (Potion), Potion8 (Potion), Potion9 (Potion), Belt10m (Belt) - MEDIUM, Belt11m (Belt) - MEDIUM, Belt12m (Belt) - MEDIUM, Belt13m (Belt) - MEDIUM, Belt14m (Belt) - MEDIUM, Belt15m (Belt) - MEDIUM, Belt1l (Belt) - LARGE, Belt1m (Belt) - MEDIUM, Belt1s (Belt) - SMALL, Belt2l (Belt) - LARGE, Belt2m (Belt) - MEDIUM, Belt2s (Belt) - SMALL, Belt3l (Belt) - LARGE, Belt3m (Belt) - MEDIUM, Belt3s (Belt) - SMALL, Belt4l (Belt) - LARGE, Belt4m (Belt) - MEDIUM, Belt4s (Belt) - SMALL, Belt5l (Belt) - LARGE, Belt5m (Belt) - MEDIUM, Belt5s (Belt) - SMALL, Belt6m (Belt) - MEDIUM, Belt7m (Belt) - MEDIUM, Belt8m (Belt) - MEDIUM, Belt9m (Belt) - MEDIUM, Footwear1 (Footwear), Footwear10 (Footwear), Footwear11 (Footwear), Footwear12 (Footwear), Footwear13 (Footwear), Footwear14 (Footwear), Footwear15 (Footwear), Footwear16 (Footwear), Footwear17 (Footwear), Footwear18 (Footwear), Footwear19 (Footwear), Footwear2 (Footwear), Footwear20 (Footwear), Footwear21 (Footwear), Footwear22 (Footwear), Footwear23 (Footwear), Footwear24 (Footwear), Footwear25 (Footwear), Footwear26 (Footwear), Footwear27 (Footwear), Footwear28 (Footwear), Footwear29 (Footwear), Footwear3 (Footwear), Footwear30 (Footwear), Footwear4 (Footwear), Footwear5 (Footwear), Footwear6 (Footwear), Footwear7 (Footwear), Footwear8 (Footwear), Footwear9 (Footwear)]
+
+Picking Gear for Players.... 
+
+Picking Weapon for Player 1.... 
+Picking Weapon for Player 2.... 
+
+<------ Players Info ------>
+
+Name: Player1 
+ Health: 41, Strength: 22, Constitution: 30, Dexterity: 17, Charisma: 11
+ Weapon: Flails, Number of weapon: 1
+ Gears worn: [Headgear25 (HeadGear), Potion1 (Potion), Potion2 (Potion), Potion6 (Potion), Belt11m (Belt) - MEDIUM, Belt4l (Belt) - LARGE, Belt8m (Belt) - MEDIUM, Belt9m (Belt) - MEDIUM, Footwear19 (Footwear)] 
+ Striking Power: 28 
+ Avoidance Ability: 23
+
+Name: Player2 
+ Health: 42, Strength: 22, Constitution: 21, Dexterity: 16, Charisma: 10
+ Weapon: Sword (Broadswords), Number of weapon: 1
+ Gears worn: [Headgear2 (HeadGear), Potion13 (Potion), Potion3 (Potion), Potion8 (Potion), Belt14m (Belt) - MEDIUM, Belt3l (Belt) - LARGE, Belt4s (Belt) - SMALL, Belt5m (Belt) - MEDIUM, Footwear10 (Footwear)] 
+ Striking Power: 26 
+ Avoidance Ability: 22
+
+
+<------ Selecting order of strike (First Strike).... ------>
+First Strike goes to: Player1
+
+<------ Round 1 ------>
+Attacker:Player1, Opponent: Player2
+Weapon: Flails, Potential Striking Damage: 30.0
+Attacker Strikes! 
+Damage taken: 9.0 
+Opponent's Health: 33.0 
+
+
+<------ Round 2 ------>
+Attacker:Player2, Opponent: Player1
+Weapon: Sword (Broadswords), Potential Striking Damage: 30.0
+Attacker Strikes! 
+Damage taken: 0.0 
+Opponent defends successfully. Opponent's Health: 41.0 
+
+
+<------ Round 3 ------>
+Attacker:Player1, Opponent: Player2
+Weapon: Flails, Potential Striking Damage: 33.0
+Attacker Strikes! 
+Damage taken: 12.0 
+Opponent's Health: 21.0 
+
+
+<------ Round 4 ------>
+Attacker:Player2, Opponent: Player1
+Weapon: Sword (Broadswords), Potential Striking Damage: 30.0
+Attacker Strikes! 
+Damage taken: 0.0 
+Opponent defends successfully. Opponent's Health: 41.0 
+
+
+<------ Round 5 ------>
+Attacker:Player1, Opponent: Player2
+Weapon: Flails, Potential Striking Damage: 31.0
+Attacker Strikes! 
+Damage taken: 10.0 
+Opponent's Health: 11.0 
+
+
+<------ Round 6 ------>
+Attacker:Player2, Opponent: Player1
+Weapon: Sword (Broadswords), Potential Striking Damage: 29.0
+Attacker Strikes! 
+Damage taken: -1.0 
+Opponent defends successfully. Opponent's Health: 41.0 
+
+
+<------ Round 7 ------>
+Attacker:Player1, Opponent: Player2
+Weapon: Flails, Potential Striking Damage: 30.0
+Attacker Strikes! 
+Damage taken: 9.0 
+Opponent's Health: 2.0 
+
+
+<------ Round 8 ------>
+Attacker:Player2, Opponent: Player1
+Weapon: Sword (Broadswords), Potential Striking Damage: 29.0
+Attacker Strikes! 
+Damage taken: -1.0 
+Opponent defends successfully. Opponent's Health: 41.0 
+
+
+<------ Round 9 ------>
+Attacker:Player1, Opponent: Player2
+Weapon: Flails, Potential Striking Damage: 30.0
+Attacker Strikes! 
+Damage taken: 9.0 
+Opponent's Health: -7.0 
+
+Result: Player1 Wins the battle. Congratulations!
+
+Do you want a rematch? (yes/no)
+no
+
+Process finished with exit code 0
